@@ -1,3 +1,5 @@
+https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/mqprichard/spring-mvc-showcase-clickstart/master/clickstart.json
+
 Spring MVC Showcase
 -------------------
 Demonstrates the capabilities of the Spring MVC web framework through small, simple examples.
