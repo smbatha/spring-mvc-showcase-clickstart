@@ -1,4 +1,4 @@
-https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/mqprichard/spring-mvc-showcase-clickstart/master/clickstart.json
+<a href="https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/mqprichard/spring-mvc-showcase-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
 Spring MVC Showcase
 -------------------
