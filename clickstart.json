@@ -1,0 +1,13 @@
+{
+    "id": "spring-mvc-showcase",
+    "name": "Spring MVC Showcase",
+    "source": "github",
+    "description" : "Spring MVC Showcase",
+    "disabled" : "true",
+
+    "build-with-jenkins": {
+        "template": {
+            "type": "https://raw.github.com/mqprichard/cloudfoundry-spring/master/config.xml"      
+        }
+    }
+}
