@@ -45,7 +45,7 @@
 <hudson.plugins.git.UserRemoteConfig>
 <name/>
 <refspec/>
-<url>${repository}</url>
+<url>${repositoryUrl}</url>
 </hudson.plugins.git.UserRemoteConfig>
 </userRemoteConfigs>
 <branches>
@@ -112,7 +112,7 @@
 <artifact class="com.cloudbees.plugins.deployer.sources.WildcardPathDeploySource">
 <filePattern>**/*.war</filePattern>
 </artifact>
-<applicationId>spring-mvc-showcase</applicationId>
+<applicationId>${applicationName}</applicationId>
 <applicationConfig/>
 <apiEndPoint>https://api.cloudbees.com/api</apiEndPoint>
 </com.cloudbees.plugins.deployer.impl.run.RunTargetImpl>
@@ -120,7 +120,7 @@
 <list reference="../c"/>
 </targets>
 <user>(jenkins)</user>
-<account>mqprichard</account>
+<account>${account}</account>
 </com.cloudbees.plugins.deployer.impl.run.RunHostImpl>
 </hosts>
 </com.cloudbees.plugins.deployer.DeployPublisher>
